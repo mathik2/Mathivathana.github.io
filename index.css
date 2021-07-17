@@ -1,0 +1,147 @@
+.container-fluid {
+    background-color: black;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(12, 3, 3);
+}
+
+.topnav a.active {
+    background-color: lightgray;
+    color: rgb(14, 13, 13);
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+header {
+    background-image: url('/images/preface.jpg');
+    background-size: cover;
+    height: 500px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.name {
+    color: white;
+    margin-top: 4cm;
+}
+
+.aboutme {
+    padding: 0.3cm;
+}
+
+#aboutmetitle {
+    padding: 0.5cm;
+    font-size: 0.7cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+#aboutmepara {
+    padding: 1cm;
+    font-size: 0.7cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color: rgb(224, 220, 220);
+}
+
+.skills {
+    margin-top: 1cm;
+    padding: 0.5cm;
+    font-size: 0.7cm;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#skill {
+    padding: 1cm;
+    margin-left: 3cm;
+}
+
+#todownload {
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#download {
+    padding: 2rem;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 168, 127);
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+}
+
+.resume {
+    text-shadow: 2px 2px 5px rgb(30, 240, 222);
+}
+
+#contacttitle {
+    padding: 0.5cm;
+    font-size: 0.7cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+#contactdescription,
+#contactmail {
+    font-size: 0.7cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.socialmedia {
+    padding: 1cm;
+}
+
+.others {
+    font-size: 0.7cm;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.fa {
+    padding: 1cm;
+}
+
+#contact {
+    background-color: rgb(233, 229, 229);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 1cm;
+    padding: 1cm;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
