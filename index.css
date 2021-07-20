@@ -64,7 +64,7 @@ header {
 
 #aboutmepara {
     padding: 1cm;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     background-color: rgb(224, 220, 220);
@@ -81,7 +81,7 @@ header {
 
 #skill {
     padding: 1cm;
-    margin-left: 3cm;
+    margin-left: 2cm;
 }
 
 #todownload {
