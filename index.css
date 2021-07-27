@@ -105,6 +105,10 @@ header {
     text-shadow: 2px 2px 5px rgb(30, 240, 222);
 }
 
+#project {
+    background-color: black;
+}
+
 .panel-heading>img {
     width: 20cm;
     height: 10cm;
@@ -145,8 +149,8 @@ header {
 footer {
     background-color: black;
     color: white;
-    height: 1cm;
-    padding: 1cm;
-    font-size: larger;
+    height: 2cm;
+    padding-bottom: 1cm;
+    font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
 }
