@@ -109,7 +109,25 @@ header {
     width: 20cm;
     height: 10cm;
 }
+.panel-body>button {
 
+    margin-left: 1rem;
+    background-color:rgb(123, 247, 123);
+    border: 1px solid black;
+    border-radius:25px;
+   
+}
+.panel-body>button :hover{
+
+    
+  box-shadow: 2px 2px 5px black;
+    
+   
+}
+.panel-body>button>a{
+    text-decoration: none;
+    color: black;
+}
 #contacttitle {
     padding: 0.5cm;
     font-size: 0.7cm;
