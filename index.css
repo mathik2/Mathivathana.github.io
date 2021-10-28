@@ -1,3 +1,8 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .container-fluid {
     background-color: black;
 }
@@ -16,7 +21,7 @@ a:link {
 }
 
 .topnav a.active {
-    background-color: lightgray;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
     color: rgb(14, 13, 13);
 }
 
@@ -26,7 +31,7 @@ a:link {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 2rem;
 }
 
 ul {
@@ -34,7 +39,7 @@ ul {
 }
 
 .topnav a:hover {
-    background-color: lightgray;
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
     color: black;
 }
 
@@ -83,7 +88,9 @@ header {
     padding: 1cm;
     margin-left: 2cm;
 }
-
+#certification{
+font-size:2rem
+}
 #todownload {
     font-size: 2rem;
     color: black;
