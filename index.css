@@ -111,29 +111,17 @@ font-size:2rem
 .resume {
     text-shadow: 2px 2px 5px rgb(30, 240, 222);
 }
-
+#project{
+    background-color:white
+}
 .panel-heading>img {
     width: 20cm;
     height: 10cm;
 }
-.panel-body>button {
 
-    margin-left: 1rem;
-    background-color:rgb(123, 247, 123);
-    border: 1px solid black;
-    border-radius:25px;
-   
-}
-.panel-body>button :hover{
-
-    
-  box-shadow: 2px 2px 5px black;
-    
-   
-}
 .panel-body>button>a{
     text-decoration: none;
-    color: black;
+    color: rgb(248, 245, 245);
 }
 #contacttitle {
     padding: 0.5cm;
