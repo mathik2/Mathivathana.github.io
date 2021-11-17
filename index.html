@@ -2,242 +2,192 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Mathivathana S -  My Personal Portfolio Shows My Details,Education,Skills,Projects,Contact Details">
-  <meta name="keywords" content="Mathivathana S,mathivathana,Portfolio,HTML, CSS, JavaScript,Bootstrap">
-  <meta name="author" content="Mathivathana S">
-  <title>Mathivathana S - Personal Portfolio Website</title>
-  <link href="index.css" rel="stylesheet" />
-
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-
-
-  <!--Link for fonts-->
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
 </head>
 
 <body>
-  <!--header section-->
-  <div class="container-fluid">
-    <div class="topnav">
+  <nav class="navbar  bg-dark navbar-dark">
+    <div class="container-fluid" id="navbar-items">
+      <a class="navbar-brand" href="#">M</a>
       <a class="active" href="#home">Home</a>
-      <a href="#about">About</a>
+      <a href="#aboutME">About</a>
       <a href="#project">Projects</a>
       <a href="#contact">Contact</a>
     </div>
+  </nav>
 
-    <header class="text-center">
-      <div class="name">
-        <h1>
-          HI<span>&#128587;</span>,I AM MATHIVATHANA <br /><br />COMPUTER
-          SCIENCE ENGINEER
-        </h1>
+  <header class="jumbotron">
+    <img src="/images/cracker.jpg" alt="cracker" id="cracker">
+    <h1 class="text-white text-left pt-50">Hi !! I am Mathivathana<br>Computer Science Graduate<br>FrontEnd Developer
+    </h1>
+    <blockquote class="text-light text-end ">Do Spark until ,satisfies and lights you</blockquote>
+  </header>
+
+
+  <section id="aboutME" in class="bg-dark">
+
+    <div class="text-light">
+      <h1 class="text-center ">About Me<span style='font-size:100px;'>&#10024;</span></h1>
+      <p id="aboutmeContent" class="text-center">
+        My name is Mathivathana, computer science Graduate.<br />
+        I am fresher aspiring to explore my knowledge obtained in the past to
+        make valuable changes in the present and wanted to improve my skills
+        along with the organization.
+        Being a fresher,i can flexible to the work which i am going to
+        assigned.
+        I am interested in developments like web development in particular
+        frontend development.
+
+      </p>
+    </div>
+
+    <img src="/images/undraw_programmer_re_owql.svg" id="aboutme_image" class="img-responsive">
+  </section>
+
+
+  <section id="skills" class="text-center bg-dark pb-5">
+    
+    <h1 class="text-center badge bg-info p-3 mb-5" style="font-size:2rem">Skills</h1>
+    <div id="skillsLearned">
+      <img src="/images/html.png">
+      <img src="/images/css.png">
+      <img src="/images/javascript.png">
+      <img src="/images/bootstrap.png">
+      <img src="/images/git_hub.png">
+      <img src="/images/vsc.jpg"  id="vsc">
+    </div>
+    <h1 class="text-center text-light p-3 display-6 mb-5">Learning in progress<div class="spinner-grow text-info"></div>
+      <div class="spinner-grow text-info"></div>
+      <div class="spinner-grow text-info"></div>
+    </h1>
+    <div id="skillsLearning">
+      <img src="/images/react.png" height="90">
+      <img src="/images/git.png" height="90">
+      <img src="/images/angular.png">
+    </div>
+  </section>
+<hr>
+  <section id="certification" class="text-center p-5 bg-dark" >
+    <h1 class="text-center badge bg-warning p-3 mb-5" style="font-size:2rem">Works</h1>
+    <div id="workPart">
+      <div class="text-center p-3">
+        <img src="/images/freecodecamp.jpg">
+        <button class="btn btn-info"><a href="https://freecodecamp.org/certification/mathivathana/responsive-web-design"
+            class="text-dark">responsive-web-design</a></button>
       </div>
-    </header>
-  </div>
-  <!--Middle section -about-->
-
-  <div class="aboutme text-center" id="about">
-    <p id="aboutmetitle"><span class="label label-danger">ABOUT ME</span></p>
-
-    <p id="aboutmepara">
-      My name is Mathivathana, computer science student.<br />
-      I am fresher aspiring to explore my knowledge obtained in the past to
-      make valuable changes in the present and wanted to improve my skills
-      along with the organization.<br />
-      Being a fresher,i can flexible to the work which i am going to
-      assigned.<br />
-      I am interested in developments like web development in particular
-      frontend development.
-      <br />
-    </p>
-
-    <hr style="height: 2rem" />
-
-    <div>
-      <h3 class="skills"><span class="label label-success">SKILLS</span></h3>
-
-      <div class="row" id="skill">
-        <div class="col-sm-2">
-          <img src="/images/html.png" class="img-responsive center" alt="html image" />
-        </div>
-        <div class="col-sm-2">
-          <img src="/images/css.png" class="img-responsive center" alt="css image" />
-        </div>
-        <div class="col-sm-2">
-          <img src="/images/javascript.png" class="img-responsive center" alt="javascript image" />
-        </div>
-        <div class="col-sm-2">
-          <img src="/images/bootstrap.png" class="img-responsive center" alt="bootstrap image" />
-        </div>
+      <div class="text-center p-3">
+        <img src="/images/git_hub.png"> <button class="btn btn-info"><a href="https://github.com/mathik2"
+            class="text-dark">GitHub</a></button>
       </div>
     </div>
 
-    <hr style="height: 2rem" />
-    <div id="certification"><a
-        href="https://freecodecamp.org/certification/mathivathana/responsive-web-design">Freecodecamp -Responsive Web
-        Design</a></div>
-    <hr style="height: 2rem" />
-    <div class="container resume">
-      <p id="todownload">
-        To Download My Resume Click Here<span class="glyphicon glyphicon-hand-down">
-        </span>
+  </section>
+<hr>
+  <section class="bg-dark"> 
+    <div class="container resume text-center p-5 ">
+      <p class="display-6 text-light">
+        To Download My Resume Click Below
       </p>
-      <button id="download">
-        <a href="/images/Mathivathana_S_resume (4).pdf" download>Resume <span
-            class="glyphicon glyphicon-download-alt"></span></a>
+      <button id="download" class="btn btn-success ">
+        <a href="/images/MATHIVATHANA S -Resume.pdf" class="text-dark display-6" download>Resume
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+          fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+        </svg>
+        </a>
       </button>
     </div>
-  </div>
-
-  <hr />
-
-  <div class="container-fluid project text-center" id="project">
-    <h2>project</h2>
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <img class="img-responsive" src="/images/Liveness.jpg" alt="Face Liveness Detection image" />
+  </section>
+<hr>
+  <section id="project" class="text-center bg-dark p-5">
+    <h1 class="text-center badge bg-info p-3 mb-5" style="font-size:2rem">Projects</h1>
+      <div class="container d-flex justify-content-around">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 projectContainer text-center">
+            <img src="/images/Liveness.jpg" class="img-thumbnail mx-auto d-block" alt="Cinque Terre" id="projectsImage">
+            <h2>Face Liveness Detection</h2>
+            <div id="projectButtons"><button class="btn btn-outline-light">No Preview Available</button></div>
           </div>
-          <div class="panel-body">
-            <h4>Face Liveness Detection</h4>
-            <button class="btn btn-success">No Preview</button>
+          <div class="col-sm-12 col-md-6 col-lg-4 projectContainer text-center">
+            <img src="/images/quiz.png" class="img-thumbnail mx-auto d-block" alt="Cinque Terre" id="projectsImage">
+            <h2>Quiz-Javascript</h2>
+            <div id="projectButtons"><button class="btn btn-outline-light"><a href="https://quiz-javascript-page.netlify.app/">Live Site</a></button><button class="btn btn-outline-info"><a href="https://github.com/mathik2/quiz-Javascript">Source Code</a></button></div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <img class="img-responsive" src="/images/to-do.png" alt="To-Do List" />
+          <div class="col-sm-12 col-md-6 col-lg-4 projectContainer text-center">
+            <img src="/images/to-do.png" class="img-thumbnail mx-auto d-block" alt="Cinque Terre" id="projectsImage">
+            <h2>To-Do List CRUD operation</h2>
+            <div id="projectButtons"><button class="btn btn-outline-light"><a href="https://to-do-list-crud.netlify.app/">Live Site</a></button><button class="btn btn-outline-info"><a href="https://github.com/mathik2/To-Do-List-Updated">Source Code</a></button></div>
           </div>
-          <div class="panel-body">
-            <h4>To-Do Lis with CRUD operation</h4>
-            <button class="btn btn-success">
-              <a href="https://to-do-list-crud.netlify.app/">Live site </a>
-            </button>
+          <div class="col-sm-12 col-md-6 col-lg-4 projectContainer text-center">
+            <img src="/images/quotepic.png" class="img-thumbnail mx-auto d-block" alt="Cinque Terre" id="projectsImage">
+            <h2>Quote Generator using API</h2>
+            <div id="projectButtons"><button class="btn btn-outline-light"><a href="https://quotegenratorusingapi.netlify.app/">Live Site</a></button><button class="btn btn-outline-info"><a href="https://github.com/mathik2/quotes">Source Code</a></button></div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <img class="img-responsive" src="/images/quotepic.png" alt="Quote generator Image" />
+          <div class="col-sm-12 col-md-6 col-lg-4 projectContainer text-center">
+            <img src="/images/activity.png" class="img-thumbnail mx-auto d-block" alt="Cinque Terre" id="projectsImage">
+            <h2>Activity Suggester</h2>
+            <div id="projectButtons"><button class="btn btn-outline-light"><a href="https://activitysuggestor.netlify.app/">Live Site</a></button><button class="btn btn-outline-info"><a href="https://github.com/mathik2/bordom-activity-suggestioner">Source Code</a></button></div>
           </div>
-          <div class="panel-body">
-            <h4>Quote Generator Using API</h4>
-            <button class="btn btn-success">
-              <a href="https://quotegenratorusingapi.netlify.app/">Live site
-              </a>
-            </button>
+          <div class="col-sm-12 col-md-6 col-lg-4 projectContainer text-center">
+            <img src="/images/earbot.png" class="img-thumbnail mx-auto d-block" alt="Cinque Terre" id="projectsImage">
+            <h2>EarBot Layout</h2>
+            <div id="projectButtons"><button class="btn btn-outline-light"><a href="https://earbot.netlify.app/">Live Site</a></button><button class="btn btn-outline-info"><a href="https://github.com/mathik2/Earbot">Source Code</a></button></div>
           </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <img class="img-responsive" src="/images/quiz.png" alt="quiz" />
+          <div class="col-sm-12 col-md-6 col-lg-4 projectContainer text-center">
+            <img src="/images/guessing number game.png" class="img-thumbnail mx-auto d-block" alt="Cinque Terre"
+              id="projectsImage">
+            <h2>Guessing Number Game</h2>
+            <div id="projectButtons"><button class="btn btn-outline-light"><a href="https://guessing-numbers-game.netlify.app/">Live Site</a></button><button class="btn btn-outline-info"><a href="https://github.com/mathik2/Guessing-number">Source Code</a></button></div>
           </div>
-          <div class="panel-body">
-            <h4>Quiz javascript</h4>
-            <button class="btn btn-success">
-              <a href="https://quiz-javascript-page.netlify.app/">Live site </a>
-            </button>
+          <div class="col-sm-12 col-md-6 col-lg-4 projectContainer text-center">
+            <img src="/images/e-food.png" class="img-thumbnail mx-auto d-block" alt="Cinque Terre" id="projectsImage">
+            <h2>E-food Layout</h2>
+            <div id="projectButtons"><button class="btn btn-outline-light"><a href="https://e-foodsite.netlify.app/">Live Site</a></button><button class="btn btn-outline-info"><a href="https://github.com/mathik2/E-food">Source Code</a></button></div>
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <img class="img-responsive" src="/images/earbot.png" alt="earbot website image" />
-          </div>
-
-          <div class="panel-body">
-            <h4>Website Using Bootstrap</h4>
-            <button class="btn btn-success">
-              <a href="https://earbot.netlify.app/">Live site </a>
-            </button>
-          </div>
-        </div>
+    
+ 
+  </section>
+  <section id="contact">
+    
+      <div class="text-center">
+        <span class="badge bg-info text-dark p-4 m-4" style="font-size:2rem">Contact</span>
+        <br>
+        <p id="contactdescription" class="display-6">
+          If you want to write to me, text by using below
+        </p>
+        <button id="contactmail" class="btn btn-outline-danger">
+        <a href="mailto:mathivathanasp@gmail.com" class="display-6 text-dark" style="text-decoration:none"> 
+          E-mail
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+          </svg>
+        </a>
+          </span>
+        </button>
       </div>
-      <div class="col-sm-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <img class="img-responsive" src="/images/activity.png" alt="activity suggestion image" />
-          </div>
-          <div class="panel-body">
-            <h4>Activity Suggester</h4>
-            <button class="btn btn-success">
-              <a href="https://activitysuggestor.netlify.app/">Live site </a>
-            </button>
-          </div>
-        </div>
+      <div class="container text-center socialmedia">
+        <span class="badge bg-dark p-4 m-4" style="font-size:2rem">Social Networks:</span>
+      <br>
+        <a href="https://www.linkedin.com/in/mathivathana-s-97a9201b0/"  class="p-5"><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg></a>
+        <a  href="https://github.com/mathik2" class="p-5 "><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="blackColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+        </svg></a>
       </div>
-      <div class="col-sm-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <img class="img-responsive" src="/images/guessing number game.png" alt="game page image" />
-          </div>
-          <div class="panel-body">
-            <h4>Number Game</h4>
-            <button class="btn btn-success">
-              <a href="https://guessing-numbers-game.netlify.app/">Live site
-              </a>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <img class="img-responsive" src="/images/e-food.png" alt="E-good image" />
-          </div>
-          <div class="panel-body">
-            <h4>E-Food Website Layout</h4>
-            <button class="btn btn-success">
-              <a href="https://e-foodsite.netlify.app/">Live site </a>
-            </button>
-          </div>
-        </div>
-      </div>
-
-
-
-    </div>
-  </div>
-
-  <hr style="background-color: black" />
-
-  <div class="contact" id="contact">
-    <div class="text-center">
-      <p id="contacttitle">
-        <span class="label label-success">CONTACT</span>
-      </p>
-      <p id="contactdescription">
-        If you want to write anything to me text by using below
-      </p>
-      <p id="contactmail">
-        E-mail
-        <span class="glyphicon glyphicon-envelope" style="color: red"></span>&nbsp;&nbsp;<span
-          class="label label-warning"><a href="mailto:mathivathanasp@gmail.com">mathivathanasp@gmail.com</a>
-        </span>
-      </p>
-    </div>
-    <div class="container text-center socialmedia">
-      <p class="text-center others">Social Networks:</p>
-      <a href="https://github.com/mathik2"><i class="fa fa-github-square"
-          style="font-size: 48px; color: rgb(17, 17, 17)"></i></a>
-      <a href="https://www.linkedin.com/in/mathivathana-s-97a9201b0/"><i class="fa fa-linkedin-square"
-          style="font-size: 48px; color: rgb(11, 144, 221)"></i></a>
-    </div>
-  </div>
-
-  <footer class="text-center">
+  
+  </section>
+  <footer class="text-center text-light bg-dark p-5 display-6">
     Thanks For Visiting<span style="font-size: 30px">&#128519;</span>
   </footer>
 </body>
