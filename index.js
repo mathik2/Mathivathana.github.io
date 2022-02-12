@@ -20,7 +20,7 @@ function heartbeat(){
 ( function () {
     let d = new Date().getHours();
     
-console.log(new Date().getHours() );
+
     if (d >= 5 & d < 12) {
         document.getElementById('wish').innerText = "Good morning :) Guest!!";
     } else if (d >= 12 & d < 15) {
