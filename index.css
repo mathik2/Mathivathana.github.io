@@ -1,162 +1,167 @@
+#greeting {
+  position: absolute;
+  z-index: 5;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  width: 20cm;
+  height: 3cm;
+  font-size: 2rem;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-left: 30%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
 
-       #greeting {
-        position: absolute;
-        z-index: 5;
-        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-        width: 20cm;
-        height: 3cm;
-        font-size: 2rem;
-        display: inline-flex;
-        justify-content: space-between;
-        margin-left: 30%;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-    }
+#wish {
+  padding: 30px;
+  color: black;
+}
+#close {
+  position: absolute;
+  right: 0;
+  font-size: 30px;
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  margin: 0;
+}
+#navbar-items > a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  font-size: 2rem;
+}
 
-    #wish {
-        padding: 30px;
-        color:black;
+#navbar-items :hover {
+  background-color: goldenrod;
+  color: black;
+}
+#cracker {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+}
+header {
+  height: 100vh;
+  width: 100vw;
+}
+header > h1 {
+  padding-top: 5%;
+  padding-left: 5%;
+  font-size: 3rem;
+}
+blockquote {
+  padding-top: 15%;
+  margin: 5%;
+  font-size: 3rem;
+}
+#aboutME {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2%;
+}
+#aboutmeContent {
+  font-size: 1.5rem;
+  padding-top: 8%;
+}
+#skillsLearned,
+#skillsLearning {
+  display: flex;
+  justify-content: space-evenly;
+}
+#vsc {
+  height: 150px;
+}
 
-    }
-    #close{
-        position: absolute;
-        right: 0;
-        font-size:30px;
-       border:none;
-       
-      }
-a{
-    text-decoration: none;
+#workPart {
+  display: flex;
+  justify-content: space-evenly;
+}
+#project {
+  padding-bottom: 2%;
+}
+#projectButtons {
+  display: flex;
+  justify-content: space-evenly;
+}
+#projectButtons > button > a {
+  color: white;
+}
+#projectButtons > button > a:hover {
+  color: black;
+}
+#projectsImage {
+  height: 40vh;
+  width: 50vh;
+}
+.projectContainer {
+  padding: 1%;
+}
+
+#contact {
+  padding: 5%;
+  background-color: rgb(224, 222, 222);
+}
+#error_a8d563a1ba5a7b5d160177fee96b7b157d4504f8 > a {
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  #greeting {
+    width: 7cm;
+    height: 3cm;
+    font-size: 1.2rem;
   }
-  hr{
-    margin: 0
-  }
-  #navbar-items > a {
-    text-decoration: none;
-    color: white;
+
+  #wish {
     padding: 20px;
-    font-size: 2rem;
-  }
-  
-  #navbar-items :hover {
-    background-color: goldenrod;
     color: black;
   }
-  #cracker {
-    position: absolute;
-    z-index: -1;
-    height: 100vh;
-    width: 100%;
+  #close {
+   
+    font-size: 15px;
+    
   }
-  header {
-    height: 100vh;
-    width: 100vw;
+  #navbar-items > a {
+    font-size: 1.1rem;
   }
+
   header > h1 {
-    padding-top: 5%;
-    padding-left: 5%;
-    font-size: 3rem;
+    text-align: center;
+    padding-top: 15%;
+
+    font-size: 2rem;
   }
   blockquote {
-    padding-top: 15%;
-    margin: 5%;
-    font-size: 3rem;
+    padding-top: 90%;
+    font-weight: bold;
+
+    font-size: 2rem;
   }
   #aboutME {
-    display: inline-flex;
-    justify-content: space-around;
-    width: 100%;
-    padding:2%;
+    display: block;
   }
-  #aboutmeContent{
-      font-size: 1.5rem;
-      padding-top:8%
+
+  #aboutme_image {
+    height: 90vh;
+    width: 90vw;
   }
-  #skillsLearned,#skillsLearning{
-      display: flex;
-      justify-content: space-evenly;
+  #skillsLearned,
+  #skillsLearning > img {
+    height: 50px;
   }
-  #vsc{
-    height:150px
+  #vsc {
+    height: 40px;
   }
- 
-  #workPart{
-      display:flex;
-      justify-content: space-evenly
+  #workPart {
+    display: block;
+    padding: 5%;
   }
-  #project{
-    padding-bottom: 2%;
+  #workPart > div > img {
+    width: 10vh;
   }
-  #projectButtons{
-      display: flex;
-      justify-content: space-evenly;
-  }
-  #projectButtons>button>a{
-   color:white
-  }
-  #projectButtons>button>a:hover{
-    color:black;
-   }
-  #projectsImage{
-    height:40vh;
-    width: 50vh;
-  }
-  .projectContainer{
-    padding: 1%;
-  }
- 
-  #contact{
-    padding:5%;
-    background-color:rgb(224, 222, 222)
-  }
-  #error_a8d563a1ba5a7b5d160177fee96b7b157d4504f8>a{
-    color:white;
-  }
-  @media only screen and (max-width: 600px) {
-    #navbar-items > a {
-        
-        font-size: 1.1rem;
-      }
-      
-    
-    
-      header > h1 {
-          text-align:center;
-        padding-top: 15%;
-        
-        font-size: 2rem;
-      }
-      blockquote {
-        padding-top: 90%;
-        font-weight: bold;
-        
-        font-size: 2rem;
-      }
-      #aboutME {
-        display: block;
-      
-      
-      }
-   
-      #aboutme_image{
-          height: 90vh;
-          width: 90vw;
-      }
-      #skillsLearned,#skillsLearning>img{
-          height: 50px;
-         
-       
-      }
-      #vsc{
-          height: 40px;
-      }
-      #workPart{
-          display:block;
-         padding:5%;
-      }
-      #workPart>div>img{
-          width: 10vh;
-         
-      }
-     
-  }
+}
